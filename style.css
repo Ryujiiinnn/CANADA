@@ -481,9 +481,8 @@ body{
     padding-top: 157px;
 }
 
-.content9{
+/* .content9{
     color: white;
-    font-size: 3vh;
     background-image: url(images/art1.jpg);
     height: 100vh;
     background-position: top;
@@ -491,16 +490,85 @@ body{
     background-repeat: no-repeat;
     padding-left: 10%;
     display: flex;
-}
+} */
 
-.content10{
-    color: white;
-    font-size: 3vh;
-    background-image: url(images/art2.jpg);
-    height: 100vh;
+.content9{
+    background-image: url(images/art1.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 10%;
     display: flex;
+}
+
+.culture{
+    width: 90%;
+    padding:20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.culture h1{
+    color: white;
+}
+
+.cult{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+    transition: 1s;
+}
+
+.cult img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255);
+}
+
+.cult:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.content10{
+    background-image: url(images/art2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+.content11{
+    background-image: url(images/art3.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.content12{
+    background-image: url(images/art4.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.lang h1{
+    color: orange;
+    font-weight: bold;
 }
